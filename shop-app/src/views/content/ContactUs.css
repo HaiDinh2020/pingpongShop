@@ -1,0 +1,52 @@
+.contactus .container {
+    margin-top: 6rem;
+    display: flex;
+    font: 300 100%/1.5 Ubuntu, sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+.contactus .contact-form {
+    width: 600px;
+    margin: auto;
+    display: block;
+    align-items: center;
+}
+
+.contactus h2 {
+    margin: 0;
+    color: #8495a5;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+
+.contactus .contact-form .contact-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contactus input[type="submit"] {
+    cursor: pointer;
+    transition: all 0.2s;
+    background: #a7cd80;
+    color: #333;
+    line-height: 2;
+}
+
+.contactus form {
+    vertical-align: top;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    line-height: 2;
+    padding: 0 10px 20px 30px;
+}
+
+.contactus input[type="submit"]:hover {
+    background: #91b36f;
+}
+
+.contactus aside {
+    margin-top: 50px;
+}
